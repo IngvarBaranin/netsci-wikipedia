@@ -14,12 +14,10 @@ Hint: Not necessary! Initial data has already been scraped. See Data section.
 In order to scrape data from Wikipedia, resulting in a DataFrame of graph edges and a DataFrame of nodes with their metadata, run notebooks/data_creation_pywikibot_api_batched.ipynb
 
 # Data
-In the data folder, there are nodes.csv and edges.csv files, containing the aforementioned DataFrames' contents. The graph contains 30k nodes and 60k+ edges of linked articles from English Wikipedia. In the node metadata, we have included the title and summaries (couple sentences) as well as the Estonian equivalent title of each article, given that it exists.
-
-TODO: Probably (?) should also scrape the Estonian Wikipedia. Dunno.
+In the data folder, there are nodes_<language>.csv and edges_<language>.csv files, containing the aforementioned DataFrames' contents. The English Wikipedia network contains 30k nodes and 60k+ edges of linked articles. Similarly, the Estonian Wikipedia network contains ~7k nodes and ~12k edges between linked articles. Additionally in the node metadata, we have included the title and summaries (all sentences that fit in the first 500 characters of an article) as well as the interlanguage equivalent title of each article, if it exists.
 
 # Analytics
-TODO
+For our analysis findings and link prediction results, see the report.
 
 # Link to Report
-TODO
+TODO add link to report.

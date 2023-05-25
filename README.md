@@ -20,4 +20,4 @@ In the data folder, there are nodes_<language>.csv and edges_<language>.csv file
 For our analysis findings and link prediction results, see the report.
 
 # Link to Report
-TODO add link to report.
+The report can be found [here](data/Network_Science_Project.pdf)
